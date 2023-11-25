@@ -1,6 +1,6 @@
 use newsletter_service::configuration::get_configuration;
 use newsletter_service::startup::run;
-use sqlx::{Connection, PgPool};
+use sqlx::PgPool;
 use std::net::TcpListener;
 
 #[tokio::main]
